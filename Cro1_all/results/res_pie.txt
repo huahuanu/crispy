@@ -1,0 +1,153 @@
+lr: 0.0001 d_model: 128 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.9151054631206603
+ f1: 0.877202956225128
+ precision_score: 0.8888248847926268
+ recall_score: 0.8658810325476992
+ roc_auc_score: 0.9037570485319141
+ confusion_matrix: [[9341  579]
+ [ 717 4629]]
+
+lr: 0.0002 d_model: 128 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.9066553124590594
+ f1: 0.8627035359861259
+ precision_score: 0.8895291078879396
+ recall_score: 0.8374485596707819
+ roc_auc_score: 0.8907000862870039
+ confusion_matrix: [[9364  556]
+ [ 869 4477]]
+
+lr: 0.0003 d_model: 128 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.90056334337744
+ f1: 0.8565759637188209
+ precision_score: 0.8654066437571593
+ recall_score: 0.8479236812570146
+ roc_auc_score: 0.8884275664349589
+ confusion_matrix: [[9215  705]
+ [ 813 4533]]
+
+lr: 0.0004 d_model: 128 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.8979431416219049
+ f1: 0.8565377532228361
+ precision_score: 0.8434892999637287
+ recall_score: 0.8699962588851478
+ roc_auc_score: 0.8915001455716061
+ confusion_matrix: [[9057  863]
+ [ 695 4651]]
+
+lr: 0.0005 d_model: 128 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.8995807677191143
+ f1: 0.852468482340487
+ precision_score: 0.8778989098116947
+ recall_score: 0.8284698840254395
+ roc_auc_score: 0.8831865549159456
+ confusion_matrix: [[9304  616]
+ [ 917 4429]]
+
+lr: 0.0006 d_model: 128 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.898991222324119
+ f1: 0.8552656279331707
+ precision_score: 0.8583270535041447
+ recall_score: 0.8522259633370745
+ roc_auc_score: 0.8882097558620856
+ confusion_matrix: [[9168  752]
+ [ 790 4556]]
+
+lr: 0.0001 d_model: 128 batch_size: 16 num_layers: 3 drop_rate: 0.1
+Acc: 0.9132713218917856
+ f1: 0.8780622582427704
+ precision_score: 0.8648403483309144
+ recall_score: 0.8916947250280584
+ roc_auc_score: 0.9082969592882226
+ confusion_matrix: [[9175  745]
+ [ 579 4767]]
+
+lr: 0.0002 d_model: 128 batch_size: 16 num_layers: 3 drop_rate: 0.1
+Acc: 0.9153019782523254
+ f1: 0.8801112656467315
+ precision_score: 0.8725868725868726
+ recall_score: 0.8877665544332211
+ roc_auc_score: 0.9089538417327396
+ confusion_matrix: [[9227  693]
+ [ 600 4746]]
+
+lr: 0.0003 d_model: 128 batch_size: 16 num_layers: 3 drop_rate: 0.1
+Acc: 0.9070483427223897
+ f1: 0.8597964628001186
+ precision_score: 0.9112041884816754
+ recall_score: 0.8138795361017583
+ roc_auc_score: 0.8855688003089437
+ confusion_matrix: [[9496  424]
+ [ 995 4351]]
+
+lr: 0.0004 d_model: 128 batch_size: 16 num_layers: 3 drop_rate: 0.1
+Acc: 0.9031180400890868
+ f1: 0.8664318612842048
+ precision_score: 0.8376113148245155
+ recall_score: 0.8973063973063973
+ roc_auc_score: 0.9017781986531986
+ confusion_matrix: [[8990  930]
+ [ 549 4797]]
+
+lr: 0.0005 d_model: 128 batch_size: 16 num_layers: 3 drop_rate: 0.1
+Acc: 0.9264378357133499
+ f1: 0.8942660766406175
+ precision_score: 0.9002843601895735
+ recall_score: 0.888327721661055
+ roc_auc_score: 0.917651764056334
+ confusion_matrix: [[9394  526]
+ [ 597 4749]]
+
+lr: 0.0006 d_model: 128 batch_size: 16 num_layers: 3 drop_rate: 0.1
+Acc: 0.8626359229660684
+ f1: 0.8123825713518833
+ precision_score: 0.7785971531469731
+ recall_score: 0.8492330714552937
+ roc_auc_score: 0.8595459712115179
+ confusion_matrix: [[8629 1291]
+ [ 806 4540]]
+
+lr: 8e-05 d_model: 64 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.9077688982051618
+ f1: 0.8612260989552534
+ precision_score: 0.9102083333333333
+ recall_score: 0.8172465394687617
+ roc_auc_score: 0.8868994794118001
+ confusion_matrix: [[9489  431]
+ [ 977 4369]]
+
+lr: 9e-05 d_model: 64 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.9029215249574217
+ f1: 0.8613657623947614
+ precision_score: 0.8615269461077845
+ recall_score: 0.8612046389824167
+ roc_auc_score: 0.8933039323944342
+ confusion_matrix: [[9180  740]
+ [ 742 4604]]
+
+lr: 8e-05 d_model: 64 batch_size: 16 num_layers: 3 drop_rate: 0.1
+Acc: 0.8974846063146862
+ f1: 0.8496204477755357
+ precision_score: 0.8735427781070935
+ recall_score: 0.8269734380845492
+ roc_auc_score: 0.8812286545261456
+ confusion_matrix: [[9280  640]
+ [ 925 4421]]
+
+lr: 0.0002 d_model: 64 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.9063932922835058
+ f1: 0.8673289388171943
+ precision_score: 0.8610138248847926
+ recall_score: 0.8737373737373737
+ roc_auc_score: 0.8988646546106224
+ confusion_matrix: [[9166  754]
+ [ 675 4671]]
+
+lr: 0.0005 d_model: 128 batch_size: 16 num_layers: 3 drop_rate: 0.1
+Acc: 0.8850386479758942
+ f1: 0.8347924315165206
+ precision_score: 0.8402501421262081
+ recall_score: 0.8294051627384961
+ roc_auc_score: 0.8722126620144093
+ confusion_matrix: [[9077  843]
+ [ 912 4434]]
+

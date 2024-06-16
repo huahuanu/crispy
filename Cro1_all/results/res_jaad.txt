@@ -1,0 +1,10 @@
+lr: 0.0001 d_model: 128 batch_size: 16 num_layers: 2 drop_rate: 0.1
+Acc: 0.8872508420297057
+ f1: 0.6700064641241112
+ precision_score: 0.6944723618090453
+ recall_score: 0.6472057446144239
+ roc_auc_score: 0.7930152683361896
+ confusion_matrix: [[13996   912]
+ [ 1130  2073]]
+
+
