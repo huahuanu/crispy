@@ -1,0 +1,36 @@
+lr: 7e-08 d_model: 64 batch_size: 16 num_layers: 2 drop_rate: 0.5
+Acc: 0.6957035869136776
+ f1: 0.8008255933952529
+ precision_score: 0.6823477687403825
+ recall_score: 0.9690914767405557
+ roc_auc_score: 0.5983886031484713
+ confusion_matrix: [[ 426 1445]
+ [  99 3104]]
+
+lr: 9e-08 d_model: 64 batch_size: 32 num_layers: 2 drop_rate: 0.5
+Acc: 0.7008277493102089
+ f1: 0.7742415229030339
+ precision_score: 0.7392786140301051
+ recall_score: 0.8126756166094287
+ roc_auc_score: 0.6610144518108607
+ confusion_matrix: [[ 953  918]
+ [ 600 2603]]
+
+lr: 1e-07 d_model: 64 batch_size: 32 num_layers: 2 drop_rate: 0.7
+Acc: 0.7039810800157666
+ f1: 0.7760214733074858
+ precision_score: 0.7427918926634314
+ recall_score: 0.8123634093037777
+ roc_auc_score: 0.6654013732782919
+ confusion_matrix: [[ 970  901]
+ [ 601 2602]]
+
+lr: 2e-07 d_model: 64 batch_size: 32 num_layers: 2 drop_rate: 0.7
+Acc: 0.6921560898699252
+ f1: 0.801322818621216
+ precision_score: 0.6761107533805538
+ recall_score: 0.9834530128004996
+ roc_auc_score: 0.5884662177845363
+ confusion_matrix: [[ 362 1509]
+ [  53 3150]]
+
